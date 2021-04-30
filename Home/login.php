@@ -21,5 +21,5 @@
         <input name="submit" type="submit" value="submit">
     </form>
 
-    <a href="https://discord.gg/6dQ2kmV5ps">Join us on Discord</a> | <a href="https://github.com/porkandbeans/Truth_Shriekers">Source code</a>
+    <a href="https://discord.gg/6dQ2kmV5ps">Join us on Discord</a> | <a href="https://github.com/porkandbeans/TRUTH-SHRIEKERS">Source code</a>
 </body>
