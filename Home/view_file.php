@@ -1,5 +1,7 @@
 <?php include "header.php";
 
+//change
+
 echo "<h1>" . $_GET["file"] . "</h1>"; ?>
 
 <div class="gallery">
