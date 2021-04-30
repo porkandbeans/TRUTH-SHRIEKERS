@@ -2,6 +2,7 @@
 include "../includes/db_connect.php";
 
 header("Location: ../Home/index.php?error=notallowed");
+//temporarily disabled
 exit();
 
 $targetdir = "../file_uploads/";
