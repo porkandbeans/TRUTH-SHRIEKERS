@@ -48,7 +48,10 @@ echo "<h1>" . $_GET["file"] . "</h1>"; ?>
                 break;
             case "bmp":
                 echo "<img src='" . $dir . $_GET["file"] . "'></img>";
-                break;
+		break;
+	    default:
+		echo "This file is of an unknown filetype, or GoKritz has not yet written a way to present this because he is super lazy and stuff.<br><a href=''>Do you wanna download it?</a>";
+		break;
         }
     }
 

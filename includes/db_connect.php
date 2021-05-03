@@ -1,12 +1,10 @@
 <?php
 
-//  these are for connection on my local machine where I test stuff.
-//  Don't worry and don't bother. :)
+//  updated for local testing on Arch
+//  I use Arch, BTW
 
-$conn = mysqli_connect("localhost", "GoKritz", "bHPfC24jvl599KLR", "userinfo");
-
-if (!$conn) {
-    die("Connection to Database failed: " . mysqli_connect_error());
+if (!$conn = mysqli_connect("localhost", "Dib", "very-secure", "zim_db")) {
+    die("Connection failed: " . mysqli_connect_error());
 }
 
 session_start();

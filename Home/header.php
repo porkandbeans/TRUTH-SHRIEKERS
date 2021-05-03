@@ -1,6 +1,6 @@
 <?php include "../includes/db_connect.php";
 
-if (!isset($_SESSION["userID"])) {
+if (!isset($_SESSION["userID"])) {	
     header("Location: login.php");
     exit();
 }
