@@ -230,3 +230,7 @@ body {
 .new_blog_link:visited {
   color: white;
 }
+
+.commentsbox{
+  white-space: pre-wrap;
+}

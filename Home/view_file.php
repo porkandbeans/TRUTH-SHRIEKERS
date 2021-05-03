@@ -2,7 +2,7 @@
 
 //change
 
-echo "<h1>" . $_GET["file"] . "</h1>"; ?>
+echo "<h1>" . htmlentities($_GET["file"]) . "</h1>"; ?>
 
 <div class="gallery">
     <?php
@@ -69,5 +69,5 @@ echo "<h1>" . $_GET["file"] . "</h1>"; ?>
         $result = mysqli_stmt_get_result($stmt);
 
         $assoc = mysqli_fetch_assoc($result);
-        echo "<div class='commentsbox'>" . $assoc["comments"] . "</div>";
+        echo "<div class='commentsbox'>" . htmlentities($assoc["comments"]) . "</div>";
     }
